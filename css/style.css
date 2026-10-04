@@ -17,7 +17,7 @@
      x: 0% shows the left edge of the photo, 100% shows the right edge.
      y: 0% shows the top, 100% shows the bottom.
      If part of your face is cut off, nudge x (try 30%, 40%, 60%, 70%) until it fits. */
-  --photo-pos: 55% 25%;
+  --photo-pos: 45% 25%;
 
   --serif: "Fraunces", Georgia, "Times New Roman", serif;
   --sans: "Hanken Grotesk", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;

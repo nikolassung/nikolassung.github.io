@@ -9,7 +9,7 @@
 const SITE = {
   email: "niksung@mit.edu",
   linkedin: "https://www.linkedin.com/in/nik-sung",
-  github: "https://github.com/nsung724",
+  github: "https://github.com/nikolassung",
   cv: "assets/CV-Sung-Nikolas-September2026.pdf",
 };
 
