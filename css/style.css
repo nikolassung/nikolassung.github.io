@@ -70,7 +70,7 @@ p { margin: 0 0 1em; max-width: 62ch; }
 .site-nav a:hover { color: var(--ink); }
 .site-nav a[aria-current="page"] { color: var(--ink); border-bottom-color: var(--accent); }
 
-/* ---------- Home: profile + bio ---------- */
+/* ---------- Home: profile + bio ----------- */
 .profile {
   display: grid;
   grid-template-columns: minmax(0, 1fr);   /* phone: everything stacked in one column */
