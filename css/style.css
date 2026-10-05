@@ -81,6 +81,7 @@ p { margin: 0 0 1em; max-width: 62ch; }
 
 .portrait {
   width: 100%;
+  height: auto;
   aspect-ratio: 4 / 5;
   object-fit: cover;
   object-position: var(--photo-pos);
@@ -104,7 +105,7 @@ p { margin: 0 0 1em; max-width: 62ch; }
 
 @media (max-width: 820px) {
   .profile { grid-template-columns: 1fr; }
-  .profile-side { max-width: 320px; }
+  .profile-side { max-width: 280px; }
 }
 
 /* ---------- Waveform: the one animated moment ---------- */
