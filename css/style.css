@@ -17,7 +17,7 @@
      x: 0% shows the left edge of the photo, 100% shows the right edge.
      y: 0% shows the top, 100% shows the bottom.
      If part of your face is cut off, nudge x (try 30%, 40%, 60%, 70%) until it fits. */
-  --photo-pos: 45% 25%;
+  --photo-pos: 44% 25%;
 
   --serif: "Fraunces", Georgia, "Times New Roman", serif;
   --sans: "Hanken Grotesk", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
@@ -52,7 +52,7 @@ a:hover { color: var(--accent); text-decoration-thickness: 2px; }
 .skip { position: absolute; left: -999px; top: 0; background: var(--ink); color: #fff; padding: 0.6rem 1rem; z-index: 10; }
 .skip:focus { left: 0; }
 
-/* ---------- Type ------------ */
+/* ---------- Type ---------- */
 h1, h2, h3, h4 { font-family: var(--serif); font-weight: 500; line-height: 1.12; letter-spacing: -0.015em; margin: 0; }
 h1 { font-size: clamp(2.6rem, 6.4vw, 4.2rem); letter-spacing: -0.025em; }
 h2 { font-size: clamp(1.7rem, 3.4vw, 2.3rem); }
@@ -70,7 +70,7 @@ p { margin: 0 0 1em; max-width: 62ch; }
 .site-nav a:hover { color: var(--ink); }
 .site-nav a[aria-current="page"] { color: var(--ink); border-bottom-color: var(--accent); }
 
-/* ---------- Home: profile + bio ------------ */
+/* ---------- Home: profile + bio ---------- */
 .profile {
   display: grid;
   grid-template-columns: minmax(0, 1fr);   /* phone: everything stacked in one column */
